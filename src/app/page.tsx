@@ -36,7 +36,7 @@ export default function Home() {
             What's in your fridge?
           </h1>
           <p className="text-lg text-muted-foreground">
-            Enter the ingredients you have, and we'll whip up some recipe ideas for you!
+            Enter the ingredients you have, and your AI Chef will whip up some recipe ideas for you!
           </p>
         </div>
         <IngredientForm onSuggest={handleSuggestion} setIsLoading={setIsLoading} isLoading={isLoading} />
@@ -76,7 +76,7 @@ export default function Home() {
       </main>
       <footer className="text-center p-6 text-sm text-muted-foreground">
         <p>
-          &copy; {new Date().getFullYear()} Fridge Foodie. All rights reserved.
+          &copy; {new Date().getFullYear()} ChefGPT. All rights reserved.
         </p>
       </footer>
     </div>

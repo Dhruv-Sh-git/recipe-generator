@@ -9,7 +9,7 @@ export default function Header() {
             <div className="p-2 bg-primary/20 text-primary rounded-lg">
                 <ChefHat className="h-6 w-6" />
             </div>
-            <span className="text-foreground">Fridge Foodie</span>
+            <span className="text-foreground">ChefGPT</span>
         </Link>
       </div>
     </header>
